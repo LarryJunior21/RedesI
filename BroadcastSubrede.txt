@@ -1,15 +1,17 @@
 Considerando um bloco de edereço IP 187.128.0.0/14 Calcular:
 
 A) Uma mascara onde 6 bits sejam alocados para sub-rede
-R: 11111111.11111100.0000000.00000000
-                  11.1111000.00000000 <- 6 bits alocados para rede
+R: 11111111.11111100.00000000.00000000
+                  11.11110000.00000000 <- 6 bits alocados para rede
 Transformando /14 em /20 dando a mascara: 255.255.240.0
 
 B) Quantidade de sub-redes possíveis
 R: 2^6 = 64
+   6 são os bits alocados para rede.
 
 C) Quantidade de hosts em cada sub-rede
 R: 2^12 = 4.096 - 2 = 4.094
+   12 são os bits 0 que sobraram dando 12.
 
 D) A partir da sub-rede 35, os próximos 4 endereços de sub-rede e broadscast
 R: 35 para binário, 35/2 = 17 sobra 1
