@@ -19,7 +19,7 @@ R: 35 para binário, 35/2 = 17 sobra 1
 		    8/2 = 4 sobra 0
 	            4/2 = 2 sobra 0
 		    2/2 = 1
-Dando 10011 em binário, como são 6 bits não precisa completar com 0 a esquerda.
+Dando 100011 em binário, como são 6 bits não precisa completar com 0 a esquerda.
 10000010.00110000.00000000
   130   .  48    .   0      -> 187.130.48.0 - Sub-rede
 10000010.00111111.11111111
